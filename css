@@ -1,0 +1,22 @@
+#drap {
+  position: relative;
+  width: 1082px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  p {
+    text-align: center;
+  }
+
+  td {
+    height: 100px;
+  }
+
+  .drag-content {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+  }
+}
+
